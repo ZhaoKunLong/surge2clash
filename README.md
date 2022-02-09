@@ -3,18 +3,25 @@ convert surge config to clash
 
 if you have any problem, welcome to post an issue
 
-# querystring option
 
-| querystring option | description             |
-| ------------------ | ----------------------- |
-| url                | surge configuration url |
-| win                | for windows GUI         |
-| port               | change http port        |
+## Usage
+- create `surgeText.js` file in the folder, and export surgeText. eg.
+```js
+const surgeText = `
+[General]
+bypass-system = true
+loglevel = notify
+replica = false
+...
+`
+module.exports = surgeText
+```
 
-demo: [https://surge2clash.herokuapp.com/](https://surge2clash.herokuapp.com/)
+- In the surge2clash.js will import it.
 
-example:`https://surge2clash.herokuapp.com/surge2clash?url=https://yoursurge.conf/surge.conf&win=1`
-
-other option can also change using querystring such as socks-port
-
+- Then run it. you will get a `tempSurgeToCloud.yaml` file
+```sh
+npm install
+npm run start
+```
 

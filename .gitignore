@@ -1,0 +1,17 @@
+#example
+example/
+
+#vscode
+.vscode/
+
+# Dependency directories
+node_modules/
+
+# Optional npm cache directory
+.npm
+
+# Output file
+tempSurgeToCloud.yaml
+
+# Input file
+surgeText.js

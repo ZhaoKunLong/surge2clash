@@ -1,0 +1,29 @@
+{
+  "name": "surge2clash",
+  "version": "1.0.0",
+  "description": "surge to clash",
+  "main": "surge2clash.js",
+  "dependencies": {
+    "ini": "^2.0.0",
+    "js-yaml": "^4.1.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node surge2clash.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ZhaoKunLong/surge2clash.git"
+  },
+  "keywords": [
+    "surge",
+    "clash"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ZhaoKunLong/surge2clash/issues"
+  },
+  "homepage": "https://github.com/ZhaoKunLong/surge2clash#readme"
+}
